@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build-git":"ng build --prod --base-href https://rpradeep1123.github.io/Nikhil-Web/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
