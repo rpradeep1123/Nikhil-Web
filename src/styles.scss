@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+.media-list .fa {
+    color: #0a4279;
+    border: 1px solid rgb(239,239,239);
+    border-radius: 50%;
+    padding: 1rem;
+    font-size: 2.5rem;
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+  .dropdown-toggle:empty::after{
+    margin-left: 0.5rem;
+  }
+  .media-list .fa:hover{
+    color:white;
+    background-color: #0a4279;
+  }
+  
+  .navbar-light .navbar-toggler {
+    color: white;
+  }
+  
+  .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+    color: #9d9d9d;
+  }
+  
+  nav-item .nav-link:hover {
+    color: white;
+  }
+  
+  .navbar-dark .navbar-nav .active > .nav-link:hover, .navbar-dark .navbar-nav .nav-link.active:hover, .navbar-dark .navbar-nav .nav-link.show:hover, .navbar-dark .navbar-nav .show > .nav-link:hover {
+    color: #fff;
+  }
+  
+  

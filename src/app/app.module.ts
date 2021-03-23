@@ -3,14 +3,23 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
+import { HomeComponent } from './home/home.component';
+import { MarketComponent } from './market/market.component';
+import { TeamComponent } from './team/team.component';
+import { SharedModule } from './shared/shared.module';
+import { NgApexchartsModule } from "ng-apexcharts";
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [			
+    AppComponent,
+      HomeComponent,
+      MarketComponent,
+      TeamComponent
+   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SharedModule,
+    NgApexchartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
