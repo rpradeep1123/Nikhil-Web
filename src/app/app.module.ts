@@ -8,12 +8,14 @@ import { MarketComponent } from './market/market.component';
 import { TeamComponent } from './team/team.component';
 import { SharedModule } from './shared/shared.module';
 import { NgApexchartsModule } from "ng-apexcharts";
+import { SavedComponent } from './saved/saved.component';
 @NgModule({
-  declarations: [			
+  declarations: [				
     AppComponent,
       HomeComponent,
       MarketComponent,
-      TeamComponent
+      TeamComponent,
+      SavedComponent
    ],
   imports: [
     BrowserModule,

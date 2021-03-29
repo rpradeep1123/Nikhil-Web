@@ -6,6 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "build-git":"ng build --prod --base-href https://rpradeep1123.github.io/Nikhil-Web/",
+    "deploy-git":"ngh -n-silent",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
